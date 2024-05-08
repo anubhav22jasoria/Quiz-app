@@ -13,6 +13,9 @@ public class Response {
         this.response = response;
     }
 
+    public Response(){
+        super();
+    }
     public int getId() {
         return id;
     }
